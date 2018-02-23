@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/add_user"
+        android:onClick="avatar"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/zc_username_linear"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/editshape2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_use_blue" />
+
+        <EditText
+            android:id="@+id/zc_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="用户名"
+            android:paddingRight="45dp"
+            android:singleLine="true"
+            android:textColor="@color/create_layout"
+            android:textColorHint="@color/create_layout"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/zc_password_linear"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editshape2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_padlock_blue" />
+
+        <EditText
+            android:id="@+id/zc_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:paddingRight="45dp"
+            android:singleLine="true"
+            android:textColor="@color/create_layout"
+            android:textColorHint="@color/create_layout"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zc_email_linear"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editshape2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/ic_email_black_24dp_blue" />
+
+        <EditText
+            android:id="@+id/zc_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="邮箱"
+            android:paddingRight="45dp"
+            android:singleLine="true"
+            android:textColor="@color/create_layout"
+            android:textColorHint="@color/create_layout"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/editshape2"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <EditText
+                android:id="@+id/verify"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:hint="验证码"
+                android:singleLine="true"
+                android:textColor="@color/create_layout"
+                android:textColorHint="@color/create_layout"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/editshape2"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp">
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="center"
+
+                />
+        </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zc_choose"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/editshape2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/zc_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:text="选择学院"
+            android:textColor="@color/create_layout"
+            android:textColorHint="@color/create_layout"
+            android:textSize="16sp" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/selector_loginbutton"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="next"/>
+
+</LinearLayout>

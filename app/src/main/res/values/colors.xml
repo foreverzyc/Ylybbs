@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Button_purple">#5F7BAA</color>
+    <color name="Button_purple_pressed">#FF8A9CB9</color>
+    <color name="Button_orange">#F26E4C</color>
+    <color name="Button_orange_pressed">#FFF4A692</color>
+    <color name="use_policy">#BCBBBB</color>
+    <color name="create_background">#8BA2CF</color>
+    <color name="create_layout">#8A97F5</color>
+    <color name="create_item">#6b86bc</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="backgroundTitle">#889FF2</color>
+    <color name="colorPointer">#dedacf</color>
+</resources>

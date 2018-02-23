@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">云麓园 BBS</string>
+    <string name="policy"><u>使用条款&amp;免责说明</u></string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_just">just</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
